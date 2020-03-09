@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.news_container {
+	width: 80%;
+	height: 700px;
+	margin: 0 auto;
+	padding: 100px 50px 0px 50px;
+	background-color: rgba(0, 0, 0, 0.5);
+	overflow: scroll;
+}
+
+.news {
+	background-color: white;
+	width: 100%;
+	margin-top: 15px;
+}
+
+.news>img {
+	width: 28%;
+	float: left;
+}
+
+.content {
+	text-overflow: ellipsis;
+}
+
+.news_container::-webkit-scrollbar {
+	display: none;
+}

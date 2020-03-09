@@ -1,0 +1,1 @@
+document.write("Наш сайт уже с JS");
